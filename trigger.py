@@ -2,7 +2,7 @@ import requests
 import json
 import urllib2
 
-trigger_url = "http://www.facebook.com/"
+trigger_url = ""
  
 triggered = False 
 altitude_json_link = "" # altitude link from Habitat
