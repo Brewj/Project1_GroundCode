@@ -18,7 +18,7 @@ while True: # forever
     trigger = str(r.json()[-1]["trigger"]) # parse trigger
     print "The trigger is: " + trigger # print trigger
  
-    if altitude >= 29900 and trigger == "True" and triggered == False: # if altitude = 30000m and altitude hasn't already been reached
+    if altitude >= 29800 and trigger == "True" and triggered == False: # if altitude = 30000m and altitude hasn't already been reached
         response = urllib2.urlopen(trigger_url)
         print response.info()
         print "Bet Placed! Exiting..."
